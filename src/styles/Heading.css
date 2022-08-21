@@ -1,0 +1,21 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.heading h4{
+  
+margin: 2rem;
+    color:grey;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.heading h4:hover{
+    color: orangered;
+}
+.heading div{
+    width: 470px;
+    height: 1.6px;
+   background-color: rgb(168, 166, 166);
+}

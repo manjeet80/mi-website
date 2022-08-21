@@ -1,0 +1,83 @@
+.PreFooter-1{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: white
+}
+.PreFooter-1 div{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.PreFooter-1 div:hover i{
+    color: black;
+}
+.PreFooter-1 div:hover p{
+color: black
+}
+.PreFooter-1 p{
+    margin-top: 1rem;
+    font-size: 17px;
+    color:rgb(52, 51, 51);
+}
+.PreFooter-1 i{
+    text-align: center;
+font-size: 2.2rem;
+color: grey;
+margin-right: 1rem;
+}
+.PreFooter-2{
+    
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.PreFooter-2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PreFooter-2 > div > div > input{
+    
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+background-color: rgb(247, 247, 247);
+}
+.PreFooter-2 > div > div > button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+}
+.PreFooter-2 > div > div{
+    border: 1px solid rgba(126, 126, 126, 0.493);
+}
+.PreFooter-2 div:nth-child(4){
+flex-direction: row;
+gap: 2rem;
+font-size: 2rem;
+color: grey;
+cursor: pointer;
+}
+
+.PreFooter-2 div:nth-child(4) i .facebook{
+    color: rgb(70, 70, 237);
+    
+}
+
+.PreFooter-2 div:nth-child(4) i .youtube{
+    color: rgb(248, 22, 22)
+}
+.PreFooter-2 div:nth-child(4) i .insta{
+    color: rgb(249, 75, 139)
+}
+.PreFooter-2 div:nth-child(4) i .twitter{
+    color: rgb(102, 205, 246)
+}

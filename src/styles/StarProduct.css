@@ -1,0 +1,16 @@
+.starproduct{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.starproduct img{
+    transition: all 0.5s;
+}
+.starproduct img:hover{
+box-shadow:  0 6px 15px rgb(143, 140, 140);
+transform: translateY(-2px);
+}

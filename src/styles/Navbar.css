@@ -1,0 +1,35 @@
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+ padding: 20px;
+    border-bottom: 1px solid rgb(205, 201, 201);
+
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+   
+}
+.navbar a:hover{
+color: orangered;
+}
+.navbar .input-text{
+    border: none;
+    outline: none;
+   background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+    font-size: 17px;
+    font-weight: lighter
+}
+.navbar .search-fa{
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(160, 157, 157);
+}

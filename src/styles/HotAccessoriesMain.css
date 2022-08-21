@@ -1,0 +1,16 @@
+.hotAccessoriesMain{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hotAccessoriesMain .accessoriesLink{
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+padding:10px 20px;
+margin-bottom: 1rem;
+}
+.hotAccessoriesMain .accessoriesLink:hover{
+    color: orangered;
+}

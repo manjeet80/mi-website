@@ -1,0 +1,76 @@
+.Footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding:  2rem 5rem;
+    margin-top: 2rem;
+    background-color: black;
+    
+}
+
+.Footer div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.Footer div:nth-child(2){
+    display: block;
+}
+.Footer div:nth-child(2) a{
+    display: inline-block;
+}
+.Footer div a{
+    text-decoration: none;
+    color: gray;
+    margin: .5rem 0;
+}
+.Footer div a:hover{
+    text-decoration: none;
+    color: white;
+}
+.Footer p{
+    color: rgb(196, 193, 193);
+    font-size: 17px;
+    font-weight: 600;
+}
+.Footer p:hover{
+    color: white;
+}
+.Footer div:last-child div{
+width: 200px;
+color: gray;
+font-weight: 600;
+
+}
+.Footer div:last-child div:hover{
+color: white;
+}
+.Footer div:last-child button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0;
+    border: 1px solid grey;
+    transition: all 0.5s;
+    }
+    .Footer div:last-child button:hover{
+        
+        background-color: white;
+        
+        color: black;
+        
+        }
+        .last-footer{
+         
+            background-color: black;
+            color: grey;
+            padding: 20px;
+        }
+        .last-footer p{
+            border-top: 1px solid grey;
+            width: 90vw;
+            padding: 20px;
+        }
+        .last-footer p:hover{
+            color: white;
+        }

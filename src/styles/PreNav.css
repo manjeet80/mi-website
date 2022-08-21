@@ -1,0 +1,38 @@
+.preNav{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    
+}
+
+.preNav div{
+  padding:1rem 3rem;
+  display: flex;
+  align-items: center;
+  
+}
+.preNav div span{
+    font-size: 7px;
+    font-weight: 100;
+    
+}
+.preNav div a{
+    text-decoration: none;
+    color: rgb(218, 215, 215);
+    margin: 0 .5rem;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.preNav .cart-icon{
+    color: rgb(218, 215, 215);
+    font-size: 22px;
+}
+.preNav .cart-icon:hover{
+    color: white;
+}
+.preNav div a:hover{
+    color: orangered;
+}
+

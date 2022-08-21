@@ -1,0 +1,19 @@
+.NavCard{
+    width: 15%;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+.NavCard:hover{
+    box-shadow: 0 6px 15px grey;
+}
+.NavCard img{
+    width: 30%;
+}
+.NavCard p{
+    margin: 0;
+}
+.NavCard span{
+    color: orangered;
+    font-weight: 600;
+}
